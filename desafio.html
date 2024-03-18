@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script>
+        function produto() {
+            var produto = document.getElementById("produto").value
+            alert("Aperte OK para confirmar")
+            alert("Produto cadastrado com sucesso: " + produto)
+        }
+
+        function preco() {
+            var preco = document.getElementById("preco").value
+            alert("Aperte OK para confirmar")
+            alert("Preço cadastrado com sucesso: " + preco)
+        }
+
+        function validade() {
+            var validade = document.getElementById("validade").value
+            alert("Aperte OK para confirmar")
+            alert("Validade cadastrada com sucesso: " + validade)
+        }
+    </script>
+</head>
+
+<body>
+    <input id="produto" />
+    <div>
+        <button onclick="produto()">
+            Produto
+        </button>
+    </div>
+
+    <input id="preco" />
+    <div>
+        <button onclick="preco()">
+            Preço
+        </button>
+    </div>
+
+    <input id="validade" />
+    <div>
+        <button onclick="validade()">
+            Validade
+        </button>
+    </div>
+</body>
+
+</html>

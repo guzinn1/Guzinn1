@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <script>
+
+        function subtracao() {
+            var n1 = parseFloat(document.getElementById("n1").value)
+            var n2 = parseFloat(document.getElementById("n2").value)
+            var sub = n1 - n2
+            alert(sub)
+        }
+        function soma() {
+            var n1 = parseFloat(document.getElementById("n1").value)
+            var n2 = parseFloat(document.getElementById("n2").value)
+            var add = n1 + n2
+            alert(add)
+
+        }
+        function multiplicacao() {
+            var n1 = parseFloat(document.getElementById("n1").value)
+            var n2 = parseFloat(document.getElementById("n2").value)
+            var mult = n1 * n2
+            alert(mult)
+
+        }
+        function divisao() {
+            var n1 = parseFloat(document.getElementById("n1").value)
+            var n2 = parseFloat(document.getElementById("n2").value)
+            var div = n1 / n2
+            alert(div)
+
+        }
+    </script>
+</head>
+
+<body>
+    <input id="n1" />
+    <input id="n2" />
+    <button onclick="subtracao()">
+        subtração
+    </button>
+
+    <button onclick="soma()">
+        soma
+    </button>
+
+    <button onclick="multiplicacao()">
+        multiplicação
+    </button>
+
+    <button onclick="divisao()">
+        divisão
+
+    </button>
+
+</body>
+
+</html>
